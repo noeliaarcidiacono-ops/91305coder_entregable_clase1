@@ -3,87 +3,75 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Noeh | Porfolio UX-UI</title>
-  <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: right;
-      background: #F7F2F0;
-      color: #A59FCD;
-      font-family: Arial, sans-serif;
-    }
-
-    .mark {
-      font-size: 4rem;
-      font-weight: bold;
-    }
-  </style>
+  <title>Contacto | Noeh</title>
+ 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="../styles/style.css" />
 </head>
 <body>
 
-    <!--header es cabecero-->
-
   <header>
-
     <h1>Noeh</h1>
-
-    <h2>Mi portfolio UX-UI</h2>
+    <h2>Diseñadora UX-UI</h2>
 
     <nav>
-      <a href="../index.html">Inicio</a>
-      <a href="sobre-mi.html">Sobre mí</a>
-      <a href="proyectos.html">Proyectos</a>
-      <a href="herramientas.html">Herramientas</a>  
-      <a href="#">Contacto</a>
-      
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="sobre-mi.html">Sobre mí</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="herramientas.html">Herramientas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
     </nav>
-
   </header>
 
-    <!--main es principal-->
   <main>
 
-     <section class="mark">
+    <section>
+      <h2>Hablemos</h2>
+      <p>¿Tenés un proyecto en mente o querés colaborar? ¡Me encantaría saber de vos!</p>
 
-      <div>
-        <h2>Contacto </h2>
-
-        <h3> Trabajemos Juntos </h3>
-
-        <p>Si querés conocer más sobre mi trabajo o tenés una propuesta para colaborar en un proyecto, 
-          estaré encantada de conversar. Podés comunicarte conmigo a través de mis redes profesionales.</p>
-
-        <h3> Encontrame en </h3>
-      <ul>
-        <li><a href="#" target="_blank">Instagram</a></li>
-        <li><a href="http://www.linkedin.com/in/noelia-arcidiacono-9204953a7" target="_blank">Linkedin</a></li>
-        <li><a href="http://https://www.behance.net/noeliaarcidia1" target="_blank">Behance</a></li>
-      </ul>
-    </div>
-
-        <figure>
-          <img src="contacto.png" alt="QR de LinkedIn" />
-          <figcaption>QR de LinkedIn</figcaption>
-        </figure>
-      </div>
-
-      
+      <img class="imagen-seccion" src="../assets/images/contacto.png" alt="Foto de Noelia Arcidiacono" />
     </section>
 
+    <form>
+      <p>
+        <label for="nombre">Nombre</label><br />
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+      </p>
+
+      <p>
+        <label for="email">Email</label><br />
+        <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+      </p>
+
+      <p>
+        <label for="mensaje">Mensaje</label><br />
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Contame sobre tu proyecto..." required></textarea>
+      </p>
+
+      <button type="submit">Enviar mensaje</button>
+    </form>
+
+    <article>
+      <h3>Información de contacto</h3>
+      <p>Email: noelia.arcidiacono@gmail.com</p>
+      <p>Ubicación: Buenos Aires, Argentina</p>
+      <p>LinkedIn: http://www.linkedin.com/in/noelia-arcidiacono-9204953a7</p>
+      <p>Behance: https://www.behance.net/noeliaarcidia1</p>
+    </article>
 
   </main>
 
-    <!--footer es pie de página-->
   <footer>
-
     <div class="footer-content">
       <h3>Redes Sociales</h3>
       <ul>
         <li><a href="#" target="_blank">Instagram</a></li>
         <li><a href="http://www.linkedin.com/in/noelia-arcidiacono-9204953a7" target="_blank">Linkedin</a></li>
-        <li><a href="http://https://www.behance.net/noeliaarcidia1" target="_blank">Behance</a></li>
+        <li><a href="https://www.behance.net/noeliaarcidia1" target="_blank">Behance</a></li>
       </ul>
     </div>
 
@@ -91,11 +79,10 @@
       <p>© 2026 Noeh. Todos los derechos reservados.</p>
       <p>Dirección: Calle Falsa 123, Ciudad, País</p>
     </div>
-
   </footer>
+
 </body>
 </html>
-
 
 
 
